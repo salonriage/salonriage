@@ -24,7 +24,7 @@
 <body>
     <div id="container" class="container">
         <header class="header">
-            <h1 class="header__topic"><a href="index.html"><img src="logo/logo.png" alt=""></a></h1>
+            <h1 class="header__topic"><a href="index.html"><img src="logo/logo.png" alt="riageロゴ"></a></h1>
             <!-- <a href="reservation.html"><img class="headerBtn__reservation" src="sozai/headerBtn_reservation.png" alt=""></a> -->
             <a href="reservation.html">
                 <div class="headerBtn__reservation">
@@ -37,7 +37,7 @@
             </a>
             <nav class="nav">
                 <div class="nav__header">
-                    <p class="nav__topic"><a href="index.html"><img src="logo/logo.jpg" alt=""></a></p>
+                    <p class="nav__topic"><a href="index.html"><img src="logo/logo.jpg" alt="riageロゴ"></a></p>
                     <img class="nav__btn" src="sozai/btn_close.png" alt="">
                 </div>
                 <ul class="nav__list">
@@ -59,8 +59,8 @@
             <article class="article">
                 <header class="article__header">
                     <ul class="slideshow-fade">
-                        <li><img class="mainvisual1" src="MainVisual/IMG_1341.jpg" alt="メインビジュアル1"></li>
-                        <li><img class="mainVisual2" src="MainVisual/IMG_1342.jpg" alt="メインビジュアル2"></li>
+                        <li><img class="mainvisual1" src="MainVisual/IMG_1341.JPG" alt="メインビジュアル1"></li>
+                        <li><img class="mainVisual2" src="MainVisual/IMG_1342.JPG" alt="メインビジュアル2"></li>
                     </ul>
                     <p class="mainVisual__txt">短い時間で、<br>長いきらめき</p>
                 </header>
@@ -131,27 +131,27 @@
                     <h2 class="topic">DESIGN<br><span class="topic__jp">デザイン</span></h2>
                     <ul class="designList design__list">
                         <li class="design__list1">
-                            <a href="Image_design/IMG_1344.JPG"><img src="Image_design/IMG_1344.JPG" alt="ネイルデザイン1"></a>
+                            <a href="Image_design/IMG_1344.JPG"><img src="Image_design/IMG_1344.JPG" alt="ネイルデザイン1(ドット)"></a>
                             <p class="designlist__txt">No.1 デザイン<br><span>¥4,200（税込）</span></p>
                         </li>
                         <li class="design__list2">
-                            <a href="Image_design/IMG_1345.JPG"><img src="Image_design/IMG_1345.JPG" alt="ネイルデザイン2"></a>
+                            <a href="Image_design/IMG_1345.JPG"><img src="Image_design/IMG_1345.JPG" alt="ネイルデザイン2（ピンクベージュ）"></a>
                             <p class="designlist__txt">No.2 デザイン<br><span>¥4,200（税込）</span></p>
                         </li>
                         <li class="design__list3">
-                            <a href="Image_design/IMG_1347.JPG"><img src="Image_design/IMG_1347.JPG" alt="ネイルデザイン3"></a>
+                            <a href="Image_design/IMG_1347.JPG"><img src="Image_design/IMG_1347.JPG" alt="ネイルデザイン3（花柄）"></a>
                             <p class="designlist__txt">No.3 デザイン<br><span>¥4,200（税込）</span></p>
                         </li>
                         <li class="design__list4">
-                            <a href="Image_design/IMG_1351.JPG"><img src="Image_design/IMG_1351.JPG" alt="ネイルデザイン4"></a>
+                            <a href="Image_design/IMG_1351.JPG"><img src="Image_design/IMG_1351.JPG" alt="ネイルデザイン4（オレンジラメ）"></a>
                             <p class="designlist__txt">No.4 デザイン<br><span>¥4,200（税込）</span></p>
                         </li>
                         <li class="design__list5">
-                            <a href="Image_design/IMG_1348.JPG"><img src="Image_design/IMG_1348.JPG" alt="ネイルデザイン5"></a>
+                            <a href="Image_design/IMG_1348.JPG"><img src="Image_design/IMG_1348.JPG" alt="ネイルデザイン5（ピンクフレンチ）"></a>
                             <p class="designlist__txt">No.5 デザイン<br><span>¥4,200（税込）</span></p>
                         </li>
                         <li class="design__list6">
-                            <a href="Image_design/IMG_1349.JPG"><img src="Image_design/IMG_1349.JPG" alt="ネイルデザイン6"></a>
+                            <a href="Image_design/IMG_1349.JPG"><img src="Image_design/IMG_1349.JPG" alt="ネイルデザイン6（ブラウンラメ）"></a>
                             <p class="designlist__txt">No.6 デザイン<br><span>¥4,200（税込）</span></p>
                         </li>
                     </ul>
@@ -270,7 +270,7 @@
             </article>
         </main>                                                                                                                          
         <footer class="footer">
-            <h2 class="footerTitle"><img class="footer__logo" src="logo/logo.jpg" alt=""></h2>
+            <h2 class="footerTitle"><img class="footer__logo" src="logo/logo.jpg" alt="riageロゴ"></h2>
             <div class="foterNav__pc">
                 <nav class="footerNav">
                     <ul class="footerNav__list">
