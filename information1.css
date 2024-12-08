@@ -1,0 +1,48 @@
+.informationList {
+    margin: 40px auto;
+    width: var(--contentWidth);
+    color: #201F1F;
+}
+
+.informationlist__txt1 {
+    color: #000;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.informationlist__txt2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.informationlist__txt3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:1440px) {
+    .informationList {
+        margin: 60px auto;
+        width: 1080px;
+    }
+    
+    .informationlist__txt1 {
+        color: #000;
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+    
+    .informationlist__txt2 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+    
+    .informationlist__txt3 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+}

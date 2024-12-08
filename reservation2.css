@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+/* reservation header */
+.reservation__header {
+    display: flex;
+    background-color: #F883BC;
+    height: 55px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+
+.reservationHeader__contents1 {
+    width: 125px;
+    line-height: 15px;
+    position: relative;
+}
+
+.reservationHeader__contents1::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../sozai/tabler_chevron-right.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 112px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.reservationHeader__contents2 {
+    width: 140px;
+    line-height: 30px;
+    position: relative;
+}
+
+.reservationHeader__contents2::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../sozai/tabler_chevron-right.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -13px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reservationHeader__contents3 {
+    width: 110px;
+    line-height: 30px;
+}
+
+.reservation__topic {
+    color: #000;
+    font-family: "Noto Sans JP";
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* form parts */
+.form__parts {
+    margin: 28px auto 0;
+    width: 325px;
+}
+
+.form__category {
+    font-size: 1.6rem;
+}
+
+.form__category::before {
+    display: inline-block;
+    content: "必須";
+    width: 43px;
+    height: 21px;
+    padding: 1px 9px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F883BC;
+    color: #FFF;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.group__textArea {
+    width: 325px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+    line-height: 21px;
+    margin-top: 12px;
+    padding-left: 8px;
+}
+
+.group__textArea2 {
+    width: 325px;
+    height: 144px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+    line-height: 21px;
+    margin-top: 12px;
+    padding-left: 8px;
+}
+
+.btn__reservation {
+    margin: 28px auto 40px;
+    padding: 8px;
+}
+
+
+.btn__reservation::after {
+    content: none;
+}
+
+/* pc */
+
+@media screen and (min-width:1440px) {
+    /* reservation header */
+    .reservation__header {
+        display: flex;
+        background-color: #F883BC;
+        height: 75px;
+        text-align: center;
+        color: #FFF;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    
+        
+    .reservationHeader__contents1 {
+        width: 260px;
+        line-height: 43px;
+        position: relative;
+    }
+    
+    .reservationHeader__contents1 br {
+        display: none;
+    }
+    
+    .reservationHeader__contents1::after {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-image: url(../sozai/tabler_chevron-right.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 260px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .reservationHeader__contents2 {
+        width: 192px;
+        margin-left: 30px;
+        line-height: 43px;
+        position: relative;
+    }
+    
+    .reservationHeader__contents2::after {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-image: url(../sozai/tabler_chevron-right.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: -24px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .reservationHeader__contents3 {
+        width: 120px;
+        margin-left: 30px;
+        line-height: 43px;
+    }
+    
+    .reservation__topic {
+        color: #000;
+        font-family: "Noto Sans JP";
+        font-size: 2.4rem;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    /* form parts */
+    .form__parts {
+        margin: 40px auto 0;
+        width: 600px;
+    }
+    
+    .form__category {
+        font-size: 1.8rem;
+    }
+
+    .formCategory__Detail {
+        font-size: 1.6rem;
+    }
+    
+    .form__category::before {
+        display: inline-block;
+        content: "必須";
+        width: 43px;
+        height: 21px;
+        padding: 1px 9px;
+        justify-content: center;
+        align-items: center;
+        background-color: #F883BC;
+        color: #FFF;
+        font-size: 1.2rem;
+        margin-right: 5px;
+    }
+    
+    .group__textArea {
+        width: 600px;
+        height: 24px;
+        background-color: #fff;
+        border: 1px solid #000;
+        font-size: 1.2rem;
+        line-height: 21px;
+        margin-top: 12px;
+        padding-left: 8px;
+    }
+    
+    .group__textArea2 {
+        width: 600px;
+        height: 144px;
+        background-color: #fff;
+        border: 1px solid #000;
+        font-size: 1.2rem;
+        line-height: 21px;
+        margin-top: 12px;
+        padding-left: 8px;
+    }
+    
+    .btn__reservation {
+        margin: 40px auto 80px;
+        padding: 17px;
+    }
+    
+    
+    .btn__reservation::after {
+        content: none;
+    }
+}
+
+
