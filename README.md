@@ -59,8 +59,8 @@
             <article class="article">
                 <header class="article__header">
                     <ul class="slideshow-fade">
-                        <li><img class="mainvisual1" src="MainVisual/IMG_1341.JPG" alt="メインビジュアル1"></li>
-                        <li><img class="mainVisual2" src="MainVisual/IMG_1342.JPG" alt="メインビジュアル2"></li>
+                        <li><img class="mainvisual1" src="IMG_1341.JPG" alt="メインビジュアル1"></li>
+                        <li><img class="mainVisual2" src="IMG_1342.JPG" alt="メインビジュアル2"></li>
                     </ul>
                     <p class="mainVisual__txt">短い時間で、<br>長いきらめき</p>
                 </header>
