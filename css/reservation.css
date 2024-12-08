@@ -1,0 +1,368 @@
+@charset "utf-8";
+
+/* reservation header */
+.reservation__header {
+    display: flex;
+    background-color: #F883BC;
+    height: 55px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+
+.reservationHeader__contents1 {
+    width: 125px;
+    line-height: 15px;
+    position: relative;
+}
+
+.reservationHeader__contents1::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../sozai/tabler_chevron-right.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 112px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.reservationHeader__contents2 {
+    width: 140px;
+    line-height: 30px;
+    position: relative;
+}
+
+.reservationHeader__contents2::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../sozai/tabler_chevron-right.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -13px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reservationHeader__contents3 {
+    width: 110px;
+    line-height: 30px;
+}
+
+.reservation__topic {
+    color: #000;
+    font-family: "Noto Sans JP";
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.reservation__txt {
+    width: 325px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 24px;
+    }
+
+.reservation__txt:nth-of-type(2) {
+    color: #EC454B;
+    }
+
+
+    /* form parts */
+.form__parts {
+    text-align: center;
+}
+
+.form__category {
+    width: 325px;
+    margin: 24px auto 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.form__category::before {
+    display: inline-block;
+    content: "必須";
+    width: 43px;
+    height: 21px;
+    padding: 1px 9px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F883BC;
+    color: #FFF;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.group--select {
+    margin: 8px auto 0;
+    width: 325px;
+    height: 24px;
+    padding: 2px 0 2px 8px;
+    text-align: start;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1.2rem;
+    background-color: #FFF;
+}
+
+.groupSelect__contents {
+    width: 325px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.groupSelect__contents::after {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    content: "";
+    display: block;
+    width: 28px;
+    height: 24px;
+    background-image: url(../sozai/select.png);
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.date {
+    width: 325px;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 24px auto;
+}
+
+.date .form__category {
+    margin: 0;
+}
+
+.select__date {
+    margin: 8px auto 0;
+    width: -webkit-fill-available;
+    height: 24px;
+    padding: 2px 0 2px 8px;
+    text-align: start;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #FFF;
+    font-size: 1.6rem;
+}
+
+.btn__reservation {
+    margin-bottom: 40px;
+}
+
+/* pc */
+@media screen and (min-width:1440px) {
+    .reservation__header {
+        display: flex;
+        background-color: #F883BC;
+        height: 75px;
+        text-align: center;
+        color: #FFF;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+        justify-content: center;
+        padding: 12px 0;
+    }
+    
+    
+    .reservationHeader__contents1 {
+        width: 260px;
+        line-height: 43px;
+        position: relative;
+    }
+
+    .reservationHeader__contents1 br {
+        display: none;
+    }
+    
+    .reservationHeader__contents1::after {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-image: url(../sozai/tabler_chevron-right.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 260px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    
+    .reservationHeader__contents2 {
+        width: 192px;
+        margin-left: 30px;
+        line-height: 43px;
+        position: relative;
+    }
+    
+    .reservationHeader__contents2::after {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-image: url(../sozai/tabler_chevron-right.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: -24px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .reservationHeader__contents3 {
+        width: 120px;
+        margin-left: 30px;
+        line-height: 43px;
+    }
+    
+    .reservation__topic {
+        color: #000;
+        font-family: "Noto Sans JP";
+        font-size: 2.4rem;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .reservation__txt {
+        width: 600px;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 44px;
+        }
+    
+    .reservation__txt:nth-of-type(2) {
+        color: #EC454B;
+        }
+    
+    
+        /* form parts */
+    .form__parts {
+        text-align: center;
+    }
+    
+    .form__category {
+        width: 600px;
+        margin: 44px auto 0;
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    .form__category::before {
+        display: inline-block;
+        content: "必須";
+        width: 43px;
+        height: 21px;
+        padding: 1px 9px;
+        justify-content: center;
+        align-items: center;
+        background-color: #F883BC;
+        color: #FFF;
+        font-size: 1.2rem;
+        margin-right: 5px;
+    }
+    
+    .group--select {
+        margin: 8px auto 0;
+        width: 600px;
+        height: 24px;
+        padding: 2px 0 2px 8px;
+        text-align: start;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        font-size: 1.2rem;
+        background-color: #FFF;
+    }
+    
+    .groupSelect__contents {
+        width: 600px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .groupSelect__contents::after {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        content: "";
+        display: block;
+        width: 28px;
+        height: 24px;
+        background-image: url(../sozai/select.png);
+        background-repeat: no-repeat;
+        pointer-events: none;
+    }
+    
+    .date {
+        width: 600px;
+        text-align: left;
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin: 44px auto;
+    }
+    
+    .date .form__category {
+        margin: 0;
+    }
+    
+    .select__date {
+        margin: 8px auto 0;
+        width: -webkit-fill-available;
+        height: 24px;
+        padding: 2px 0 2px 8px;
+        text-align: start;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: #FFF;
+        font-size: 1.6rem;
+    }
+    
+    .btn__reservation {
+        margin-bottom: 80px;
+    }
+    
+}
+
+
+
+
+    
+
+
+
