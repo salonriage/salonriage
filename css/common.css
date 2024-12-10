@@ -323,8 +323,8 @@ header
 
     .headerBtn__reservation {
         display: block;
-        width: 131px;
-        height: 35px;
+        width: 141px;
+        height: 38px;
         flex-shrink: 0;
         margin-right: 10px;
         position: absolute;
@@ -334,6 +334,19 @@ header
 
     .headerBtn__reservation:hover {
         opacity: 0.5;
+    }
+
+    .headerBtn__reservation::after {
+        top: 0;
+        right: 30px;
+    }
+
+    .header__btnTxt1 {
+        font-size: 1rem;
+    }
+
+    .header__btnTxt2 {
+        margin-left: 30px;
     }
     
     .header__btn,
